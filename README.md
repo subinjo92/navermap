@@ -1,6 +1,6 @@
 # navermap
 
-* ---------------------navermap 패키지는 기존 nkmap 패키지에서 naver api를 가져온 것으로 naver 지도 api가 수정된 것을 반영한 패키지입니다.
+* navermap 패키지는 기존 nkmap 패키지에서 naver api를 가져온 것으로 naver 지도 api가 수정된 것을 반영한 패키지입니다.
 
 ## get_naver_map
 
