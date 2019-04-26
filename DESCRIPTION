@@ -1,19 +1,11 @@
 Package: navermap
 Type: Package
-Title: Drawing map with naver static map 
+Title: What the Package Does (Title Case)
 Version: 0.1.0
-Author: Subin Jo
-Maintainer: The package maintainer <vgd2469@gmail.com>
-Description: Draw map with naver static map.
-    you can use lon, lat or address to draw map.
-Depends: 
- R (>= 3.4.4),
- ggmap,
- jpeg,
- png,
- jsonlite,
- httr,
- tidyverse
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
