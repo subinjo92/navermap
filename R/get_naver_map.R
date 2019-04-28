@@ -14,7 +14,7 @@ get_naver_map <- function (center = c(lon = 126.9849208, lat = 37.5664519), zoom
   argsgiven <- names(args)
   crs <- match.arg(crs)
   if (address) {
-    center <- as.numeric(geocode_naver(center, naver_key,
+    center <- as.numeric(geocode_naver(center, naver_id,
                                        naver_secret))
   }
 
