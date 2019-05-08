@@ -13,7 +13,8 @@ geocode_naver <- function (address, naver_id, naver_secret)
   url <- "https://naveropenapi.apigw.ntruss.com/map-geocode/v2/geocode?"
   url_fed_to_get <- paste0(url, "query=", enc_address)
   address_result <- GET(url_fed_to_get, add_headers(`X-NCP-APIGW-API-KEY-ID` = naver_id,
-                                                    `X-NCP-APIGW-API-KEY` = naver_secret))
+                                                    `X-NCP-APIGW-API-KEY` = naver_secret,
+                                                    `Accept` = 'application/json'))
   json <- content(address_result, as = "text", encoding = "UTF-8")
   processed_json <- fromJSON(json)
   if (processed_json$meta$count == 0) {
