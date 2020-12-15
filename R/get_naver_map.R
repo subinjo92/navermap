@@ -2,7 +2,7 @@ get_naver_map <- function (center = c(lon = 126.9849208, lat = 37.5664519), zoom
                            size = c(640, 640), format = c("png", "jpeg", "jpg"),
                            crs = c("EPSG:4326", "NHN:2048", "NHN:128", "EPSG:4258",
                                    "EPSG:4162", "EPSG:2096", "EPSG:2097", "EPSG:2098", "EPSG:900913"),
-                           maptype = c("basic", "satellite", "terrain"), color = c("color", "bw"),
+                           maptype = c("basic", "traffic", "satellite", "satellite_base", "terrain"), color = c("color", "bw"),
                            markers, scale = 1,
                            naver_id, naver_secret,
                            address = FALSE,
